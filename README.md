@@ -2,25 +2,25 @@
 
 ## 1、介绍
 
-这是一个在RT-Thread上，SHT3X系列温湿度传感器的驱动。实现了温湿度的单次查询(single-shot)读取，并支持`Finsh/MSH`测试命令。
+这是一个在RT-Thread上，SHT3X系列温湿度传感器的驱动。实现了温湿度的单次查询(single-shot)读取，并支持 `Finsh/MSH`测试命令。
 本驱动编程实现方便读取多个SHT3X传感器。地址IO的控制和数据的滤波留给用户自行编程处理。
 
 ### 1.1 目录结构
 
-| 名称 | 说明 |
-| ---- | ---- |
-| docs  | 文档目录 |
-| docs/datasheets  | 数据手册目录 |
-| docs/api.md  | 应用编程接口说明 |
-| docs/version.md  | 版本说明 |
-| sht3x.h  | 头文件 |
-| sht3x.c  | 源代码 |
-| SConscript | RT-Thread 默认的构建脚本 |
-| README.md | 软件包使用说明 |
+| 名称            | 说明                     |
+| --------------- | ------------------------ |
+| docs            | 文档目录                 |
+| docs/datasheets | 数据手册目录             |
+| docs/api.md     | 应用编程接口说明         |
+| docs/version.md | 版本说明                 |
+| sht3x.h         | 头文件                   |
+| sht3x.c         | 源代码                   |
+| SConscript      | RT-Thread 默认的构建脚本 |
+| README.md       | 软件包使用说明           |
 
 ### 1.2 许可证
 
-SHT3x package 遵循 `LGPLv2.1` 许可，详见 `LICENSE` 文件。
+SHT3x package 遵循 `Apache-2.0`许可，详见 `LICENSE` 文件。
 
 ### 1.3 依赖
 
@@ -53,4 +53,4 @@ RT-Thread online packages
 
 * 维护：hao.dong
 * 邮箱：hao.dong.nanjing@outlook.com
-* 主页：https://github.com/donghao2nanjing/sht3x
+* 主页：https://github.com/RT-Thread-packages/sht3x
